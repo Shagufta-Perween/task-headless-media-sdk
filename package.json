@@ -1,0 +1,17 @@
+{
+  "name": "headless-media-sdk-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "dev": "npm run dev --workspace=apps/web-app",
+    "typecheck": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}

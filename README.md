@@ -82,10 +82,3 @@ The Reels Swiper provides vertical snapping slides similar to modern social feed
 * Employs an `IntersectionObserver` on the viewport to detect which slide is currently filling > 60% of the screen.
 * Triggers active slide detection dynamically, automatically playing the active video, muting inactive videos, and firing SDK `view` events.
 
----
-
-## 🤖 AI Coding Assistant Skills
-
-We've shipped two standard `.md` instruction documents for AI coding tools:
-* **[SKILL_WIRING.md](file:///c:/Users/perwe/Downloads/React_Task/SKILL_WIRING.md)**: Guides assistants on setting up provider context, loading data hooks, paginating feeds, and dispatching event listeners.
-* **[SKILL_COMPONENTS.md](file:///c:/Users/perwe/Downloads/React_Task/SKILL_COMPONENTS.md)**: Instructs assistants on building headless layouts, binding returned prop-getters to JSX elements, managing accessibility, and hooking up scroll snaps.
